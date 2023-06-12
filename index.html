@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Glass Tech Indústria de Vidro </title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo">
+            <img src="img/logo3.svg" alt="Logo Glass Tech Indústria de Vidro">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#inovacao">Inovação</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="destaques container">
+            <div class="videos">
+                <video src="./img/gettyimages-494411959-640_adpp.mp4" autoplay="true" loop></video>
+            </div>
+            <div class="conteudo container">
+                <h2>Bem-vindo à Glass Tech</h2>
+                <p>"A Glass Tech é uma indústria de vidro inovadora e líder no mercado, com fornecimento de uma ampla
+                    gama de produtos de vidro de alta qualidade.
+
+                    Estamos comprometidos em oferecer soluções personalizadas, inovação tecnológica e práticas
+                    sustentáveis para atender às necessidades dos nossos clientes em diversos setores."</p>
+            </div>
+        </section>
+        <section name="sobre" id="sobre" class="sobre container">
+            <div class="sobre-info">
+                <h2>Sobre nós</h2>
+                <p>"A Glass Tech é uma empresa com mais de 2 anos de experiência na indústria de vidro. Desde a nossa
+                    fundação, temos buscado a excelência em qualidade e inovação, tornando-nos líderes do setor.
+                    Nossa equipe altamente qualificada e nossas instalações avançadas nos permitem oferecer produtos de
+                    vidro personalizados de alta qualidade, atendendo às necessidades únicas de cada cliente."</p>
+            </div>
+        </section>
+        <section class="ideias container">
+            <h2>Glass Tech </h2>
+            <div class="flex-ideias">
+                <div class="ideias-info">
+                    <h2>Missão da Glass Tech</h2>
+                    <p>Fornecer soluções inovadoras e de alta qualidade no setor de vidro, atendendo às necessidades e
+                        expectativas de nossos clientes.</p>
+                </div>
+
+                <div class="ideias-info">
+                    <h2>Visão da Glass Tech</h2>
+                    <p>Ser reconhecida como uma indústria de vidro líder e referência, tanto regional quanto
+                        globalmente, pela qualidade e confiabilidade de nossos produtos e serviços.</p>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="produtos container">
+            <!-- Conteúdo sobre os produtos -->
+            <h2>Nossos Produtos</h2>
+            <p>Na Glass Tech, oferecemos uma ampla variedade de produtos de vidro de alta qualidade, projetados para
+                atender às diversas necessidades de nossos clientes.</p>
+            <ul>
+                <li>Vidro temperados, incluindo fachadas, claraboias e divisórias de vidro</li>
+                <li>Vidro automotivo, como para-brisas, vidros laterais e traseiros</li>
+                <li>Vidro decorativo, incluindo espelhos decorativos e vidros texturizados</li>
+                <li>Vidro de segurança, como vidro temperado e vidro laminado</li>
+                <li>E muitos outros produtos de vidro personalizados para atender às suas necessidades específicas.</li>
+            </ul>
+        </section>
+
+        <section id="inovacao" class="inovacao container">
+            <!-- Conteúdo sobre inovação e tecnologia -->
+            <h2>Inovação e Tecnologia</h2>
+            <p>Na Glass Tech, estamos empenhados em permanecer na vanguarda da inovação e tecnologia na indústria de
+                vidro. Investimos continuamente em pesquisa e desenvolvimento para oferecer os produtos mais avançados e
+                de alta qualidade.</p>
+            <p>Nossos processos de fabricação são equipados com tecnologia de ponta e nossos produtos passam por
+                rigorosos controles de qualidade para garantir a excelência em cada etapa.</p>
+        </section>
+
+        <section class="galeria container" id="galeria">
+            <div class="galeria-title">
+                <h2>Nossa galeria</h2>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/cabinet-door-machine-for-sale.webp" width="400px" height="400px" alt="">
+                    </div>
+                   
+                    <div class="swiper-slide">
+                        <img src="./img/exterior-de-um-edificio-vista.jpg" width="400px" height="400px" alt="">
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <img src="./img/predios-em-tons-azuis.jpg" width="400px" height="400px" alt="">
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato container">
+            <!-- Formulário de contato -->
+            <div class="contato-info">
+                <h2>Entre em Contato</h2>
+            </div>
+            <form>
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="text" name="email" placeholder="Seu e-mail" required>
+                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section class="localizacao container">
+
+            <div class="localizacao-img">
+                <h2 style="text-align: center; margin-bottom: 25px;">Localização</h2>
+                <img src="img/localizacao.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <div class="logo">
+            <img src="img/logo.svg" alt="Logo Glass Tech Indústria de Vidro">
+        </div>
+        <nav>
+            <div class="footer-info">
+                <h3>E-mail</h3>
+                <p>glasstech@comercial.com</p>
+            </div>
+
+            <div class="footer-info">
+                <h3>Contactos</h3>
+                <p>glasstech@comercial.com</p>
+            </div>
+            <div class="footer-info">
+                <h3>Endereco</h3>
+                <p>Luanda - ViaExpress ,Triangulo das Acassias</p>
+            </div>
+
+            <div class="footer-info">
+                <h3>Socias</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>Linkedin</p>
+            </div>
+        </nav>
+        <div>
+            <p> <span>&#169;</span> 2023 Glass Tech - Indústria de Vidro</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+
+    <script src="site.js"></script>
+</body>
+
+</html>

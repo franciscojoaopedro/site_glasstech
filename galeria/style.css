@@ -1,0 +1,57 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+.gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .gallery img.active {
+    opacity: 1;
+  }
+  
+
+  .gallery {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .gallery img {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .gallery.animate {
+    animation: slide 5s infinite;
+  }
+  
