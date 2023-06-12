@@ -9,8 +9,7 @@
     padding: 20px 100px;
 }
 body{
-    width: 100%;
-    min-height: 100vh;
+   
     font-family: 'Libre Baskerville', serif;
     background: #dfe2e7c2;
     color: #03277bf7;
@@ -266,7 +265,6 @@ footer{
 
   /* animação swipper*/
   .swiper {
-  background: red;
   padding: 8px;
   border-radius: 8px;
     width: 100%;
