@@ -10,7 +10,7 @@
 }
 body{
    
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
     background: #dfe2e7c2;
     color: #03277bf7;
 }
@@ -234,7 +234,16 @@ footer{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin: 0px 10px;
+    margin: 10px 10px;
+}
+.footer-info h3{
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+.footer-info p{
+    font-weight: 100;
+    margin-bottom: 3px;
+    color: #cbd5e1;
 }
 
 .socias{
