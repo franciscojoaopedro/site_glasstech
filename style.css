@@ -33,7 +33,7 @@ header{
     width: 100%;
 }
 .logo img{
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
@@ -198,6 +198,10 @@ main section{
 }
 .galeria-title {
     margin: 25px 0;
+}
+.galeria-title h2{
+    color: #0f172a;
+    font-weight: 300;
 }
 footer{
     margin-top: 20px;
