@@ -157,31 +157,45 @@ main section{
     align-items: center;
     flex-direction: column;
     margin-bottom: 25px;
+    gap: 20px;
 }
 .ideias h2{
     font-weight: 200;
     margin-bottom: 25px;
 }
+.ideias-info {
+   width: 500px;
+    background: #020617;
+    padding: 10px 15px;
+    border-radius: 8px;
+    padding: 5px 12px;
+    box-shadow: 5px 5px 5px 5px solid #020617 ;
+}
 .flex-ideias{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
 }
 .ideias-info{
     flex-direction: column;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
-.flex-ideias div h2{
+.flex-ideias h2{
     text-align: center;
-    margin-bottom: 25px;
-    line-height: 1.875em;
+    margin-bottom:15px;
+    line-height: 1.8em;
+    color: #fff;
+    font-weight: 500;
 }
-.flex-ideias div p{
+.flex-ideias  p{
     text-align: justify;
-    line-height: 1.875em;
+    color: #dfe2e7;
+    line-height: 1.8em;
+    margin-bottom: 15px;
+    font-weight: 200;
 }
 .galeria{
     
