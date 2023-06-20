@@ -108,7 +108,7 @@ main section{
 
 .conteudo{
     padding: 20px;
-    background: #02061743;
+    background: #020617a6;
     margin-top: 25px;
     font-weight: 200;
     width: 600px;
@@ -120,6 +120,7 @@ main section{
     font-size: 30px;
 }
 .conteudo p{
+    font-weight: 500;
     text-align: justify;
     font-size: 20px;
     line-height: 1.83em;
@@ -134,8 +135,8 @@ main section{
 }
 .sobre-info{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: start;
     flex-direction: column;
     
 }
@@ -146,7 +147,7 @@ main section{
 
 }
 .sobre-info p{
-    text-align: center;
+    text-align: start;
     line-height: 1.875em;
     color: #121212;
 
@@ -157,14 +158,15 @@ main section{
     align-items: center;
     flex-direction: column;
     margin-bottom: 25px;
-    gap: 20px;
+    gap: 15px;
 }
-.ideias h2{
-    font-weight: 200;
-    margin-bottom: 25px;
+.ideias .content{
+    padding: 15px;
+    background: #020617;
+
 }
 .ideias-info {
-   width: 500px;
+   width: 100%;
     background: #020617;
     padding: 10px 15px;
     border-radius: 8px;
@@ -183,9 +185,17 @@ main section{
     justify-content: flex-start;
     align-items: center;
 }
+.ideias-info.left{
+    border-radius: 0px;
+    border-right: 2px solid #fff;
+}
+.ideias-info.rigth{
+    border-radius: 0px;
+    border-left: 2px solid #fff;
+}
 .flex-ideias h2{
     text-align: center;
-    margin-bottom:15px;
+    margin-bottom:10px;
     line-height: 1.8em;
     color: #fff;
     font-weight: 500;
@@ -194,8 +204,13 @@ main section{
     text-align: justify;
     color: #dfe2e7;
     line-height: 1.8em;
-    margin-bottom: 15px;
     font-weight: 200;
+}
+.ideias h2{
+    text-align: start;
+    color: #FFF;
+    font-weight: 600;
+    margin-bottom: 25px;
 }
 .galeria{
     
@@ -210,12 +225,50 @@ main section{
     z-index: 1;
     margin-top: 25px;
 }
+
+.produtos{
+width: 100%;
+display: flex;
+justify-content: start;
+align-items: start;
+flex-direction: column;
+}
+.produtos .content{
+    width: 100%;
+    padding: 15px;
+    background: #020617;
+}
+.produtos .content h2{
+    color: #fff;
+    text-align: start;
+    margin-bottom: 25px;
+}
+.produtos .content ul{
+    padding-left: 100px;
+    display: block;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    list-style: square;
+    left: 500px;
+}
+.produtos .content ul li{
+    color: #fff;
+    font-weight: 200;
+}
+.produtos .content p {
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 200;
+
+}
+
 .galeria-title {
     margin: 25px 0;
 }
 .galeria-title h2{
     color: #0f172a;
-    font-weight: 300;
+    font-weight: 600;
 }
 footer{
     margin-top: 20px;
@@ -298,11 +351,26 @@ footer{
     align-items: center;
     flex-direction: column;
   }
+  .contato .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #020617;
+  }
+
+  .contato .content .img-contact{
+  }
+  .img-contact img{
+    width: 500px;
+  }
   .contato-info{
     width: 300px;
   }
-  .contato-info p{
-    text-align: justify;
+  .contato-info h2{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
   }
   form {
     max-width: 500px;
