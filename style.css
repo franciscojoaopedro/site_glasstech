@@ -184,6 +184,20 @@ main section{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+ 
+}
+.ideias h2{
+    text-align: start;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+.ideias-info.left h2{
+    font-weight: 300;
+ 
+}
+.ideias-info.rigth h2{
+    font-weight: 300;
+
 }
 .ideias-info.left{
     border-radius: 0px;
@@ -205,12 +219,6 @@ main section{
     color: #dfe2e7;
     line-height: 1.8em;
     font-weight: 200;
-}
-.ideias h2{
-    text-align: start;
-    color: #FFF;
-    font-weight: 600;
-    margin-bottom: 25px;
 }
 .galeria{
     
@@ -262,7 +270,16 @@ flex-direction: column;
     font-weight: 200;
 
 }
-
+.produtos-information{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.produtos-information p{
+    padding: 30px;
+    text-align: justify;
+}
 .galeria-title {
     margin: 25px 0;
 }
